@@ -101,7 +101,7 @@ img {
   transform: scale(1.5);
 }
 .box-container .image-1 {
-  background-image: url(./images/pexels-gilberto-reyes-825949.jpg);
+  background-image: url(/images/pexels-gilberto-reyes-825949.jpg);
   border-radius: 30px;
   background-size: cover;
   width: 200px;
