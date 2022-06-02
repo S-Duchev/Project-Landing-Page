@@ -31,6 +31,7 @@ header p {
   max-width: 1100px;
   display: flex;
   margin: 0 auto;
+  justify-content: center;
 }
 
 .logo {
@@ -85,42 +86,54 @@ img {
   border-radius: 30px;
 }
 
-/* Section Styling */
-
-.section .information {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+/* Styling the section */
 
 .section .information h1 {
   font-size: 36px;
   font-weight: bold;
-  margin: 50px 0px 25px;
+  margin: 50px 0px 50px;
 }
 
-.box-container {
-  display: flex;
-  flex-direction: column;
-  width: 150px;
-  justify-content: center;
-  align-items: center;
-  margin: 25px;
-  text-align: center;
+.image-1:hover,
+.image-2:hover,
+.image-3:hover,
+.image-4:hover {
+  transform: scale(1.5);
+}
+.box-container .image-1 {
+  background-image: url(/images/pexels-gilberto-reyes-825949.jpg);
+  border-radius: 30px;
+  background-size: cover;
+  width: 200px;
+  height: 150px;
+  transition: transform 0.15s;
 }
 
-.section .box {
-  width: 160px;
-  height: 170px;
-  border: 4px #3882f6 solid;
-  border-radius: 20px;
-  margin-bottom: 15px;
+.box-container .image-2 {
+  background-image: url(/images/janan-lagerwall-p2UbTX6Uoig-unsplash.jpg);
+  border-radius: 30px;
+  background-size: cover;
+  width: 200px;
+  height: 150px;
+  transition: transform 0.15s;
 }
 
-.section .boxes {
-  display: flex;
-  justify-content: center;
+.box-container .image-3 {
+  background-image: url(/images/pexels-werlley-meira-1436495.jpg);
+  border-radius: 30px;
+  background-size: cover;
+  width: 200px;
+  height: 150px;
+  transition: transform 0.15s;
+}
+
+.box-container .image-4 {
+  background-image: url(/images/alexander-possingham-CeWNEEsHPbA-unsplash.jpg);
+  border-radius: 30px;
+  background-size: cover;
+  width: 200px;
+  height: 150px;
+  transition: transform 0.15s;
 }
 
 /* Quote Styling */
@@ -131,7 +144,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
- 
 }
 
 .quote {
@@ -147,20 +159,19 @@ img {
   align-items: flex-end;
 }
 .author {
-font-size: 1.4rem;
-font-weight: 700;
+  font-size: 1.4rem;
+  font-weight: 700;
 }
 
 /* Action Call Styling */
 
-.action-call{
+.action-call {
   margin: 100px;
- 
 }
 
 .action-call .container {
   border-radius: 8px;
-  background-color:#3882f6;
+  background-color: #3882f6;
   padding: 50px;
   justify-content: space-around;
   align-items: center;
@@ -172,7 +183,6 @@ font-weight: 700;
 }
 
 .action-call button {
-  
   background-color: #3882f6;
   border: 3px solid #fff;
   border-radius: 8px;
@@ -181,7 +191,6 @@ font-weight: 700;
   font-size: 1.1rem;
   font-weight: bold;
   cursor: pointer;
-  
 }
 
 .action-call button:hover {
@@ -195,7 +204,7 @@ font-weight: 700;
 
 .footer {
   background-color: #1f2937;
-  color: #e5e7eb
+  color: #e5e7eb;
 }
 
 .footer .container {
